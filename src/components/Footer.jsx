@@ -66,7 +66,7 @@ const Footer = () => {
             © {new Date().getFullYear()} LUMIQ Labs. All rights reserved.
           </p>
           <p className="text-slate-600 text-sm flex items-center gap-1">
-            Made with <span className="text-brand-purple">💜</span> by LUMIQ Team
+            Made with <span className="text-brand-purple">💜</span> by Yuvaraj, Founder & Director of LUMIQ Labs
           </p>
         </div>
       </div>

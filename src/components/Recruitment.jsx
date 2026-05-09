@@ -83,6 +83,9 @@ const Recruitment = () => {
                       { title: 'Frontend Developer', type: 'React / Next.js' },
                       { title: 'UI/UX Designer', type: 'Figma / Motion' },
                       { title: 'Backend Engineer', type: 'Node / Supabase' },
+                      { title: 'Mobile Developer', type: 'Flutter / RN' },
+                      { title: 'AI / ML Developer', type: 'Python / Gemini' },
+                      { title: 'Full Stack Dev', type: 'MERN Stack' },
                     ].map((role, i) => (
                       <div key={i} className="p-6 glass-dark rounded-3xl border border-white/5 hover:border-brand-purple/30 transition-all cursor-pointer group">
                         <div className="flex justify-between items-center">
@@ -132,6 +135,10 @@ const Recruitment = () => {
                         <option value="UI/UX Designer">UI/UX Designer</option>
                         <option value="Backend Engineer">Backend Engineer</option>
                         <option value="Mobile Developer">Mobile Developer</option>
+                        <option value="AI / ML Developer">AI / ML Developer</option>
+                        <option value="Full Stack Dev">Full Stack Developer</option>
+                        <option value="Graphic Designer">Graphic Designer</option>
+                        <option value="Marketing Lead">Marketing Lead</option>
                       </select>
                     </div>
                   </div>

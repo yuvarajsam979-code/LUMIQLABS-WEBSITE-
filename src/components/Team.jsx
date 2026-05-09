@@ -10,7 +10,8 @@ const team = [
     socials: {
       linkedin: 'https://www.linkedin.com/in/yuvaraj-v-4a4615371/',
       github: 'https://github.com/yuvarajsam979-code',
-      instagram: 'https://www.instagram.com/lumiqlabs?igsh=a29zNHE2ZTloOTh5'
+      instagram: 'https://www.instagram.com/yuavrajvijayakumar?igsh=MWJvM3E3cXY4cjAzbA%3D%3D',
+      portfolio: 'https://adorable-seahorse-9a6ceb.netlify.app'
     }
   },
   {
@@ -20,8 +21,7 @@ const team = [
     socials: {
       linkedin: 'https://www.linkedin.com/in/senthamizh-selvan-dev/?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
       github: 'https://github.com/senthamizhselvan-404',
-      instagram: 'https://www.instagram.com/lumiqlabs?igsh=a29zNHE2ZTloOTh5',
-      portfolio: 'https://adorable-seahorse-9a6ceb.netlify.app'
+      instagram: 'https://www.instagram.com/tamzz.exe?igsh=NjhlcDF0NGkwbmU4'
     }
   },
   {
@@ -29,9 +29,9 @@ const team = [
     role: 'CO-founder & CTO',
     image: '/rithish.jpg',
     socials: {
-      linkedin: '#',
-      github: '#',
-      instagram: '#'
+      linkedin: 'https://www.linkedin.com/in/rithish-bala-kumar-226028386',
+      github: 'https://github.com/rithishrbk-crypto',
+      instagram: 'https://www.instagram.com/kinda.rithiii?igsh=Y3JsMDFlb3ptOHVv'
     }
   },
   {
@@ -41,7 +41,7 @@ const team = [
     socials: {
       linkedin: 'https://www.linkedin.com/in/kaviraj3728/',
       github: 'https://github.com/kaviyora',
-      instagram: '#'
+      instagram: 'https://www.instagram.com/kaviyora?igsh=MXhpc2p3amt1enpxOA=='
     }
   },
 ];

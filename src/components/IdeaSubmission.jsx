@@ -20,7 +20,7 @@ const IdeaSubmission = () => {
   };
 
   return (
-    <section className="py-24 relative overflow-hidden bg-brand-purple/5">
+    <section id="idea-submission" className="py-24 relative overflow-hidden bg-brand-purple/5">
       <div className="max-w-7xl mx-auto px-6">
         <div className="glass-dark p-12 md:p-20 rounded-[50px] border border-white/10 relative overflow-hidden text-center">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-1 bg-gradient-to-r from-transparent via-brand-purple to-transparent" />
