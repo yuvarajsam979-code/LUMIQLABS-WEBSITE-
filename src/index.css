@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #050a1f;
+  --color-brand-purple: #7c3aed;
+  --color-brand-cyan: #06b6d4;
+  --color-brand-deep: #020617;
+  
+  --color-light-bg: #f8fafc;
+  --color-light-text: #0f172a;
+  --color-light-surface: #ffffff;
+  
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-deep text-slate-200 selection:bg-brand-purple/30 selection:text-white font-sans overflow-x-hidden transition-colors duration-500;
+    background-image: 
+      radial-gradient(circle at 0% 0%, rgba(124, 58, 237, 0.15) 0%, transparent 50%),
+      radial-gradient(circle at 100% 100%, rgba(6, 182, 212, 0.1) 0%, transparent 50%);
+    background-attachment: fixed;
+  }
+
+  :root.light body {
+    @apply bg-light-bg text-slate-700;
+    background-image: 
+      radial-gradient(circle at 0% 0%, rgba(124, 58, 237, 0.05) 0%, transparent 50%),
+      radial-gradient(circle at 100% 100%, rgba(6, 182, 212, 0.05) 0%, transparent 50%);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold text-white tracking-tight transition-colors duration-500;
+  }
+
+  :root.light h1, :root.light h2, :root.light h3, :root.light h4, :root.light h5, :root.light h6 {
+    @apply text-slate-900;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl;
+  }
+  
+  .glass-dark {
+    @apply bg-black/40 backdrop-blur-2xl border border-white/5 shadow-2xl;
+  }
+  
+  .neon-border {
+    @apply relative border border-brand-purple/50;
+    box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
+  }
+  
+  .neon-text {
+    @apply text-brand-purple;
+    text-shadow: 0 0 10px rgba(124, 58, 237, 0.5);
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-purple to-brand-cyan;
+  }
+
+  .gradient-border {
+    @apply relative p-[1px] overflow-hidden rounded-xl;
+    background: linear-gradient(to right, var(--color-brand-purple), var(--color-brand-cyan));
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.1); }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 8s ease-in-out infinite;
+}
