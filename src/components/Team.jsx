@@ -1,6 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { Linkedin, Github, Instagram, Twitter } from 'lucide-react';
+import { Linkedin, Github, Instagram } from 'lucide-react';
 
 const team = [
   {
