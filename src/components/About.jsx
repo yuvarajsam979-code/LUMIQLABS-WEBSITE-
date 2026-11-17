@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Users, Lightbulb, Target, Rocket } from 'lucide-react';
 

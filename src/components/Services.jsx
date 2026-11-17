@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Code2, Palette, Smartphone, Cpu, Megaphone, ArrowUpRight, Sparkles } from 'lucide-react';
 

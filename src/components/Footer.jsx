@@ -1,4 +1,3 @@
-import React from 'react';
 import { Instagram, Linkedin, Github, MessageCircle } from 'lucide-react';
 import Logo from './Logo';
 
